@@ -96,8 +96,8 @@ tags = [
 }]
 
 TurkKanallar = [{
-  'name': '01 - BEYAZ TV',
-  'url': 'http://hdtvizle.ru/14452/71930/71968/beyaz.m3u8',
+  'name': '01 - BEYAZ TV test',
+  'url': 'http://www.canlitvizle.co/beyaz-tv',
   'icon': 'beyaztv.png',
   'disabled': False
 },
