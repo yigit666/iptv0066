@@ -96,8 +96,8 @@ tags = [
 }]
 
 TurkKanallar = [{
-  'name': '01 - BEYAZ TV test',
-  'url': 'http://www.canlitvizle.co/beyaz-tv',
+  'name': '01 - show test',
+  'url': 'http://canlitvlive.org/embed?channel=show-tv&format=xml',
   'icon': 'beyaztv.png',
   'disabled': False
 },
