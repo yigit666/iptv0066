@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 ﻿@@ -0,0 +1,629 @@
 =======
 >>>>>>> origin/master
@@ -97,7 +97,7 @@ tags = [
     'name': 'Filmler',
     'id': 'Filmler',
     'icon': 'filmler.png',
-<<<<<<< HEAD
+
   },
      {
     'name': 'test',
@@ -617,7 +617,7 @@ Filmler = [{
   'disabled': False
 }]
 
-<<<<<<< HEAD
+
 test = [{
  
   {  
