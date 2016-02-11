@@ -1,7 +1,3 @@
-
-﻿@@ -0,0 +1,629 @@
-=======
->>>>>>> origin/master
 # -*- coding: utf-8 -*-
 import sys
 import os
@@ -97,27 +93,11 @@ tags = [
     'name': 'Filmler',
     'id': 'Filmler',
     'icon': 'filmler.png',
-
-  },
-     {
-    'name': 'test',
-    'id': 'test',
-    'icon': 'dini.jpg',
-  },
 }]
 
 TurkKanallar = [{
-  'name': '01 - BEYAZ TV',
-  'url': 'http://hdtvizle.ru/14452/71930/71968/beyaz.m3u8',
-=======
-      },
-
-}]
-
-TurkKanallar = [{
-  'name': '01 - canli tv',
-  'url': 'http://mobile.canlitvlive.org/',
->>>>>>> origin/master
+  'name': '01 - BEYAZ TV test',
+  'url': 'http://www.canlitvizle.co/beyaz-tv',
   'icon': 'beyaztv.png',
   'disabled': False
 },
@@ -617,41 +597,13 @@ Filmler = [{
   'disabled': False
 }]
 
-
-test = [{
  
-  {  
-  'name': 'test',
-  'url': 'http://www.canlitvlive.com/izle/tv8.html',
-  'icon': 'polis.jpg',
-  'disabled': False
-  
-  
-},
-
-  { 
-  'name': 'test',
-  'url': 'http://www.canlitvlive.com/izle/kanal-turk.html',
-  'icon': 'kolpacino.jpg',
-  'disabled': False
-
-
-
-}]
-
-=======
- 
->>>>>>> origin/master
 streams = {
   'TurkKanallar': sorted((i for i in TurkKanallar if not i.get('disabled', False)), key=lower_getter('name')),
   'YabanciKanallar': sorted((i for i in YabanciKanallar if not i.get('disabled', False)), key=lower_getter('name')),
   'Sohbetler': sorted((i for i in Sohbetler if not i.get('disabled', False)), key=lower_getter('name')),
   'DiniKanallar': sorted((i for i in DiniKanallar if not i.get('disabled', False)), key=lower_getter('name')),
   'Filmler': sorted((i for i in Filmler if not i.get('disabled', False)), key=lower_getter('name')),
-<<<<<<< HEAD
-  'test': sorted((i for i in test if not i.get('disabled', False)), key=lower_getter('name')),
-=======
->>>>>>> origin/master
   # 'TurkKanallar': sorted(TurkKanallar, key=lower_getter('name')),
   # 'YabanciKanallar': sorted(YabanciKanallar, key=lower_getter('name')),
   # 'Sohbetler': sorted(Sohbetler, key=lower_getter('name')),
@@ -674,8 +626,4 @@ logging.warning('ARGS!!!! sys.argv %s', sys.argv)
 if TAG == None:
   show_tags()
 else:
-<<<<<<< HEAD
   show_streams(TAG)
-=======
-  show_streams(TAG)
->>>>>>> origin/master
