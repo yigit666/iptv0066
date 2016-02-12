@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.iptv0066" name="iptv0066" version="1.0.5" provider-name="iptv0066">
+<addon id="plugin.video.iptv0066"
+       name="iptv tv"
+       version="1.0.3"
+       provider-name="iptv0066">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="addon.py">
-    <provides>video</provides>
+<import addon="script.module.requests" version="1.1.0"/>
+	  </requires>
+  <extension point="xbmc.python.pluginsource" provides="video" library="iptv0066.py">
+        <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">yozgat66</summary>
-    <description lang="en">iptv0066 ile IpTv izle</description>
-    <disclaimer lang="en">Iyi seyirler</disclaimer>
-    <language>en</language>
+    <summary>iptv0066</summary>
+    <description>iptv0066</description>
+	
     <platform>all</platform>
-    <license>MIT</license>
-    <forum></forum>
-    <source></source>
   </extension>
 </addon>
